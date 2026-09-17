@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'Sweet';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-2@1.0/SUITE-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: swap;
+}
+
+/* 모든 요소의 크기 계산에 padding과 border를 포함 */
+* {
+  box-sizing: border-box;
+}
+
+/* 브라우저 기본 여백 제거 + 전체 화면 사용 */
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+/* 사이트 전체 기본 글꼴과 글자색 */
+body {
+  font-family: 'Sweet';
+  color: #222;
+}
+
+/* 링크가 부모 요소의 글자색을 그대로 사용하도록 설정 */
+a {
+  color: inherit;
+}

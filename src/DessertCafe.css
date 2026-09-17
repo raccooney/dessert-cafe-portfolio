@@ -1,0 +1,356 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    color: #1d1d1b;
+    background-color: #f3efe7;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 40px;
+
+    background-color: #f3efe7;
+    color: #1d1d1b;
+}
+
+.site-header h1 {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 42px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.site-header nav {
+    display: flex;
+    gap: 32px;
+}
+
+.site-header nav a {
+    color: #1d1d1b;
+    text-decoration: none;
+}
+
+.site-header nav a:hover {
+    opacity: 0.5;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    min-height: 650px;
+    background-color: #f3efe7;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px;
+}
+
+.hero-label {
+    margin: 0 0 24px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero h2 {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 88px;
+    font-weight: 500;
+    line-height: 0.9;
+}
+
+.hero-description {
+    max-width: 380px;
+    margin: 32px 0;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.hero a {
+    color: #1d1d1b;
+    text-decoration: none;
+    font-size: 12px;
+    letter-spacing: 1.5px;
+    border-bottom: 1px solid #1d1d1b;
+    padding-bottom: 4px;
+}
+
+.hero-image {
+    background-image: url('./assets/dessert-cafe.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+
+.signature {
+    display: grid;
+    grid-template-columns: 1.2fr 1fr;
+    min-height: 560px;
+    background-color: #f3efe7;
+}
+
+.signature-image {
+    background-image: url('./assets/signature-cake.jpg');
+    background-size: cover;
+    background-position: center 10%;
+}
+
+.signature-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px;
+}
+
+.signature-text > p:first-child {
+    margin: 0 0 20px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.signature-text h2 {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.signature-text p {
+    max-width: 400px;
+    margin: 28px 0;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.signature-text span {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.menu-board {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 80px;
+    padding: 80px 60px;
+    background-color: #1d1d1b;
+    color: #f3efe7;
+}
+
+.menu-column h3 {
+    margin: 0 0 32px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 38px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(243, 239, 231, 0.25);
+    font-size: 15px;
+}
+
+.location {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+    min-height: 560;
+    background-color: #f3efe7;
+    color: #1d1d1b;
+}
+
+.location-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 60px;
+}
+
+.section-label {
+    margin: 0 0 20px;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.location h2 {
+    margin: 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.location-text p {
+    margin: 28px 0 0;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+.location-image {
+    background-image: url('./assets/cafe-location.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.contact {
+    padding: 120px 60px;
+    text-align: center;
+    background-color: #1d1d1b;
+    color: #f3efe7;
+}
+
+.contact .section-label {
+    margin-bottom: 24px;
+}
+
+.contact h2 {
+    max-width: 700px;
+    margin: 0 auto 48px;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 1;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.contact-info a {
+    color: #f3efe7;
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.contact-info a:hover {
+    opacity: 0.6;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 24px 40px;
+
+    background-color: #f3efe7;
+    color: #1d1d1b;
+
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.footer p {
+    margin: 0;
+}
+
+
+@media (max-width: 768px) {
+  .site-header {
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  .site-header h1 {
+    font-size: 34px;
+  }
+
+  .site-header nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .hero-text {
+    padding: 50px 24px;
+  }
+
+  .hero h2 {
+    font-size: 58px;
+  }
+
+  .hero-image {
+    min-height: 380px;
+  }
+
+  .signature {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .signature-image {
+    min-height: 380px;
+  }
+
+  .signature-text {
+    padding: 50px 24px;
+  }
+
+  .signature-text h2 {
+    font-size: 44px;
+  }
+
+  .menu-board {
+    grid-template-columns: 1fr;
+    gap: 48px;
+    padding: 60px 24px;
+  }
+
+  .location {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+
+  .location-text {
+    padding: 50px 24px;
+  }
+
+  .location h2 {
+    font-size: 44px;
+  }
+
+  .location-image {
+    min-height: 380px;
+  }
+
+  .contact {
+    padding: 80px 24px;
+  }
+
+  .contact h2 {
+    font-size: 46px;
+  }
+
+  .contact-info {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .footer {
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px;
+    text-align: center;
+  }
+}
